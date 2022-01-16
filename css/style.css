@@ -1,4 +1,5 @@
 /* GLOBAL */
+
 * {
   box-sizing: border-box;
 }
@@ -148,7 +149,6 @@ body {
 .main-button:active {
   opacity: 0.6;
 }
-
 .site-header-button {
   background-color: #0A775F;
 }

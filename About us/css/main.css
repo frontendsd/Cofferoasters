@@ -1,0 +1,337 @@
+* {
+    box-sizing: border-box;
+  }
+   *:focus {
+     outline: 2px dotted dodgerblue;
+     outline-offset: 2px;
+   }
+  
+  html {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 2px;
+    height: 100%;
+  }
+  
+  /* CONTAINER */
+  .container {
+    max-width: 1540px;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .site-header{
+    background-color: #F3D7B7;
+    background-image: url('../img/Rectangle\ \(4\).png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+  }
+  /* SITENAV */
+  .sitenav {
+    padding-top: 40px;
+    padding-bottom: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .site-footer {
+    margin-top: 50px;
+    background-color: #F3D7B7;
+  }
+  
+  .sitenav-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 71px;
+  }
+  .sitenav-logo-link {
+    /* margin-left: -80px; */
+  }
+  .sitenav-logo-link:hover {
+    opacity: 0.8;
+  }
+  
+  .sitenav-logo-link:active {
+    opacity: 0.6;
+  }
+  .sitenav-list {
+    display: flex;
+    align-items: center;  
+  }
+  .sitenav-item {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sitenav-item:not(:last-child){
+    margin-right: 40px;
+  }
+  .sitenav-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #333;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    transition: 0.3s ease;
+  }
+  .sitenav-link:hover {
+    border-bottom: 2px solid #0A775F;
+  }
+  
+  .site-header-container {
+    margin-left: 80px;
+    /* margin-right: 80px; */
+  }
+  
+  .site-header-info {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .site-header-info-title {
+    width: 447px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #000;
+    margin-top: 156px;
+    margin-bottom: 24px;
+  }
+  
+  .site-header-info-text {
+    width: 464px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 34px;
+  }
+  
+  .main-button {
+    width: 193px;
+    text-decoration: none;
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.75px;
+    letter-spacing: 1px;
+    color: #fff;
+    text-align: center;
+    padding: 16px 24px;
+    border-radius: 100px;
+  }
+  .main-button:hover {
+    opacity: 0.8;
+  }
+  
+  .main-button:active {
+    opacity: 0.6;
+  }
+  .site-header-button {
+    background-color: #0A775F;
+  }
+
+  .site-header-info-img {
+    position: relative;
+    width: 710px;
+    height: 696px;
+    background-image: url('../img/choy.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    left: 195px;
+  }
+
+  /* MAIN */
+
+.main-content {
+  flex-grow: 1;
+  margin: 10px;
+  background-color: #F8F8F2;
+}
+
+.main-content-action {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+  .main-content-list {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+  }
+  
+  .main-content-item {
+    margin: 0;
+    padding: 0;
+  }
+  .main-content-img {
+    margin-top: 160px;
+    margin-left: 165px;
+  }
+  
+  .main-content-title {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    margin-top: 160px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56.25px;
+    margin-bottom: 10px;
+    margin-left: 185px;
+  }
+  .main-content-text {
+    width: 860px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    margin-left: 185px;
+    margin-bottom: 200px;
+  }
+
+  /* SECTION */
+
+
+  .site-section {
+    background-color: #C99B67;
+    background-image: url('../img/Rectangle\ \(4\).png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+    margin-bottom: 20px;
+  }
+
+  .site-section-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .site-section-list {
+    list-style-type: none;
+  }
+
+  .site-section-item {
+    
+  }
+
+  .site-section-title {
+    width: 397px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 58.59px;
+    margin-top: 100px;
+    margin-bottom: 24px;
+    color: #fff;
+  }
+
+  .site-section-text {
+    width: 750px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+    margin-bottom: 118px;
+  }
+
+  .site-section-img {
+    position: relative;
+    left: 100px;
+    bottom: 120px;
+  }
+
+
+  /* SITE SECTION SECOND */
+
+  .site-section-countries {
+    margin: 10px;
+    background-color: #0A775F;
+    background-image: url('../img/Rectangle\ \(4\).png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+  }
+
+  .site-section-country-heading {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 58.59px;
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    text-align: center;
+  }
+  .site-section-works-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: -20px;
+  }
+  
+  .site-section-works-item {
+    width: 433px;
+    background-color: #fff;
+    list-style-type: none;
+    margin: 20px;
+    justify-content: space-between;
+    padding: 20px 20px 40px 20px;
+    margin-bottom: 161px;
+  }
+  .site-section-works-number {
+    margin-left: 250px;
+  }
+  
+  .site-section-works-action-heading {
+    width: 231px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 46.88px;
+    color: #333;
+    /* margin-top: 80px; */
+    margin-bottom: 10px;
+  }
+  .site-section-works-action-text {
+    margin: 0;
+    padding: 0;
+    /* width: 385px; */
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+
+  .site-footer {
+    margin-top: 50px;
+    background-color: #F3D7B7;
+  }
+  
+  .sitenav-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 71px;
+  }
